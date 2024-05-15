@@ -1,5 +1,5 @@
 {% set name = "brainglobe-space" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/brainglobe_space-{{ version }}.tar.gz
-  sha256: a20f576d0a264dc2e15bf99d1b6a4a0f11198776edaecd247e27a185827d6a79
+  sha256: 5706f8b921d747c059120353b34cd67f006facc78d0eedea6dc4144380e85dcf
 
 build:
   noarch: python
